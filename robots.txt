@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://koljacria.github.io/sitemap.xml

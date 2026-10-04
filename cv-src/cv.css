@@ -1,0 +1,47 @@
+@font-face { font-family: "Manrope"; src: url("../fonts/Manrope-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: "Manrope"; src: url("../fonts/Manrope-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: "Chakra Petch"; src: url("../fonts/ChakraPetch-SemiBold.ttf"); font-weight: 600; }
+
+@page { size: A4; margin: 0; }
+:root { --ink: #1c1f22; --muted: #5d646b; --faint: #8a9096; --rule: #d9dde0; --accent: #1d6f8a; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #fff; color: var(--ink); font: 400 8.6pt/1.42 "Manrope", sans-serif; -webkit-print-color-adjust: exact; }
+
+.page { width: 210mm; height: 297mm; padding: 13mm 15mm 12mm; position: relative; page-break-after: always; overflow: hidden; }
+.page:last-child { page-break-after: auto; }
+
+.top { display: flex; justify-content: space-between; align-items: flex-start; }
+h1 { font: 600 26pt/1 "Chakra Petch", sans-serif; letter-spacing: -0.01em; }
+.brand { font: 600 12pt/1 "Chakra Petch", sans-serif; color: var(--accent); margin-top: 6pt; }
+.role { font-weight: 700; font-size: 9.6pt; margin-top: 7pt; }
+.contact { color: var(--muted); font-size: 7.8pt; margin-top: 4pt; line-height: 1.55; }
+.contact a { color: var(--accent); text-decoration: none; }
+.summary { margin-top: 9pt; max-width: 100%; }
+
+h2 {
+  font-weight: 700; font-size: 7.6pt; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent);
+  margin: 11pt 0 6pt; padding-bottom: 4pt; border-bottom: 0.6pt solid var(--rule);
+}
+.job { margin-bottom: 7pt; break-inside: avoid; }
+.job h3 { font-weight: 700; font-size: 8.9pt; margin-bottom: 2.5pt; }
+.job h3 .when { font-weight: 400; color: var(--muted); font-size: 7.8pt; }
+ul { list-style: none; }
+li { padding-left: 9pt; position: relative; margin-bottom: 2pt; }
+li::before { content: "•"; position: absolute; left: 1pt; }
+b, strong { font-weight: 700; }
+
+.lines div { margin-bottom: 2.5pt; }
+.lines .when { color: var(--muted); }
+.focus div { margin-bottom: 3pt; }
+.edu div { margin-bottom: 4pt; }
+.edu .school { font-weight: 700; font-size: 7.9pt; }
+.edu .what { color: var(--muted); font-size: 7.8pt; }
+
+.intro { color: var(--muted); font-size: 7.8pt; margin-bottom: 4pt; }
+.proj { margin-bottom: 4.5pt; }
+.proj .tag { color: var(--faint); font-size: 7.2pt; }
+
+.foot {
+  position: absolute; left: 15mm; right: 15mm; bottom: 9mm; display: flex; justify-content: space-between;
+  color: var(--faint); font-size: 6.8pt; border-top: 0.6pt solid var(--rule); padding-top: 4pt;
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Anderson Silva — Currículo</title>
+<link rel="stylesheet" href="cv-ats.css">
+<style>html, body { font-size: 8.2pt; line-height: 1.33; } h2 { margin: 7pt 0 3.5pt; }</style>
+</head>
+<body>
+
+<h1>Anderson Silva</h1>
+<div class="title">Engenheiro de IA · TypeScript / Node.js · Sistemas em tempo real e multiplayer</div>
+<div class="contact">São Paulo, Brasil (UTC−3) · Disponível para trabalho remoto · anderson@kolja.com.br ·
+  <a href="https://koljacria.github.io">koljacria.github.io</a> · linkedin.com/in/oriontis</div>
+
+<h2>Resumo</h2>
+<p>Engenheiro de software nativo em IA, desenvolvendo software desde 2010. Projeto sistemas e dirijo agentes de IA de
+  programação para construí-los, com testes automatizados em cada etapa, o que me permite entregar sistemas grandes e
+  funcionais com rapidez. Trabalhos recentes incluem orquestração multiagente, infraestrutura de identidade e segurança,
+  um mensageiro offline com criptografia de ponta a ponta e um jogo multiplayer baseado em física.</p>
+
+<h2>Competências</h2>
+<div class="skills">
+  <div><b>AI &amp; LLM:</b> orquestração multiagente, fluxos de programação com agentes, roteamento multimodelo independente de provedor, LLMs locais, testes adversariais</div>
+  <div><b>Backend:</b> TypeScript, Node.js, Python, PostgreSQL / Supabase, Convex, SQLite, JSON-RPC, SSE, APIs REST</div>
+  <div><b>Segurança e identidade:</b> OIDC / SSO, passkeys / WebAuthn, JWS / JWKS, X25519, AES-GCM, HKDF, DTLS</div>
+  <div><b>Jogos e gráficos:</b> Godot 4 (GDScript), Jolt physics, rede com servidor autoritativo, Three.js, WebGL / GLSL, Metal / MetalFX</div>
+  <div><b>Mobile e desktop:</b> Android (Java, WebView), Swift / macOS, aplicativos web progressivos (PWA), extensões de navegador</div>
+  <div><b>Processamento de sinais:</b> Web Audio API, DSP, projeto de modem acústico, decodificação de sinais de sensores</div>
+</div>
+
+<h2>Experiência</h2>
+<div class="item">
+  <div class="head"><b>Engenheiro de IA e Sistemas — Lucentive</b></div><div class="sub">Remoto · abr 2026 – set 2026</div>
+  <ul>
+    <li>Desenvolvi o cliente entre agentes do Aura: descoberta de serviços assinada, verificação JWS/JWKS que rejeita falhas, JSON-RPC sobre SSE limitado, com 33 testes adversariais.</li>
+    <li>Desenvolvi o núcleo do Icarus, plataforma de geração de aplicações por IA com orquestração multimodelo independente de provedor e etapas de build e verificação.</li>
+    <li>Projetei a infraestrutura de identidade Lucentive One: login único via OIDC e passkeys; ampliei verificações de segurança de merges no CI e a cobertura de testes adversariais.</li>
+    <li>Conduzi a unidade de desenvolvimento de jogos da empresa (Lucentive Games) como seu único desenvolvedor.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="head"><b>Engenheiro de Software Independente — Kölja</b></div><div class="sub">São Paulo · 2010 – atual</div>
+  <ul>
+    <li>Desenvolvedor autônomo de jogos, aplicativos e ferramentas de IA há mais de 15 anos, incluindo Nightmare Engine, jogo de terror lançado com meu próprio motor de gráficos retrô. Fundei o estúdio de jogos e música Kölja em 2026.</li>
+  </ul>
+</div>
+
+<h2>Projetos selecionados</h2>
+<div class="item">
+  <div class="head"><b>Salt Meridian — jogo multiplayer de comércio pirata</b></div><div class="sub">Godot 4.7 · criador e diretor técnico · em desenvolvimento</div>
+  <ul>
+    <li>Física de navegação real: flutuação a partir dos volumes do próprio casco, sustentação e arrasto das velas pelo vento aparente, leme que entra em estol.</li>
+    <li>Multiplayer com servidor autoritativo e todas as conexões criptografadas (DTLS); contas com login por desafio-resposta, funções de moderação e log de auditoria; servidor dedicado Linux com scripts de deploy, rollback e backup.</li>
+    <li>Capitães controlados por IA que navegam, comerciam e combatem com a mesma física dos jogadores. Cerca de 68.000 linhas de GDScript e 208 conjuntos de testes, construídos com agentes de IA de programação sob minha direção.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="head"><b>Lume — mensageiro offline com criptografia de ponta a ponta</b></div><div class="sub">Android + macOS · criador · privado</div>
+  <ul>
+    <li>Os aparelhos se pareiam e conversam sem nenhuma rede: QR codes, piscadas de tela e lanterna, som quase ultrassônico e um canal de campo magnético lido pelo magnetômetro do celular.</li>
+    <li>Handshake X25519 por conversa, mensagens AES-GCM e troca de chaves; compressão de texto própria (~3 bits por caractere) e modem acústico de 18 tons; testes unitários e de ponta a ponta com dois aparelhos.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="head"><b>Project Artemis — agente de IA local para segurança e automação do computador</b></div><div class="sub">criador · em andamento</div>
+  <ul>
+    <li>Roda inteiramente no hardware do usuário, sem inferência em nuvem: memória persistente em SQLite, habilidades em arquivos, roteamento entre dois modelos, operações de shell e arquivos.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="head"><b>Pocket VR — desktop de realidade virtual para óculos com celular</b></div><div class="sub">Android · v1.4 · testado em aparelho real</div>
+  <ul>
+    <li>Seis ambientes 3D, navegação lado a lado, arquivos locais, teclado por controle e digitação por voz, além de um formato de pacote isolado para apps e jogos de terceiros.</li>
+  </ul>
+</div>
+
+<h2>Formação e idiomas</h2>
+<div class="edu">
+  <div><b>Inteligência Artificial e Ferramentas Avançadas de Ciência de Dados</b> — Universidade Presbiteriana Mackenzie · 2020</div>
+  <div><b>Pós-graduação lato sensu em Direito</b> — IFRS · 2025</div>
+  <div><b>Idiomas:</b> português (nativo) · inglês (fluente) · espanhol (profissional)</div>
+</div>
+
+</body>
+</html>

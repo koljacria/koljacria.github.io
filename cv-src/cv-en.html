@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Anderson Silva — CV</title>
+<link rel="stylesheet" href="cv-ats.css">
+</head>
+<body>
+
+<h1>Anderson Silva</h1>
+<div class="title">AI Engineer · TypeScript / Node.js · Real-time &amp; Multiplayer Systems</div>
+<div class="contact">São Paulo, Brazil (UTC−3) · Open to remote work worldwide · anderson@kolja.com.br ·
+  <a href="https://koljacria.github.io">koljacria.github.io</a> · linkedin.com/in/oriontis</div>
+
+<h2>Summary</h2>
+<p>AI-native software engineer, building software since 2010. I design systems and direct AI coding agents to build
+  them, holding every step to automated tests, which lets me ship large, working systems quickly. Recent work spans
+  multi-agent orchestration, identity and security infrastructure, an end-to-end encrypted offline messenger, and a
+  physics-based multiplayer game.</p>
+
+<h2>Skills</h2>
+<div class="skills">
+  <div><b>AI &amp; LLM:</b> multi-agent orchestration, agentic coding workflows, provider-agnostic multi-model routing, local LLMs, adversarial testing</div>
+  <div><b>Backend:</b> TypeScript, Node.js, Python, PostgreSQL / Supabase, Convex, SQLite, JSON-RPC, SSE, REST APIs</div>
+  <div><b>Security &amp; identity:</b> OIDC / SSO, passkeys / WebAuthn, JWS / JWKS, X25519, AES-GCM, HKDF, DTLS</div>
+  <div><b>Games &amp; graphics:</b> Godot 4 (GDScript), Jolt physics, server-authoritative networking, Three.js, WebGL / GLSL, Metal / MetalFX</div>
+  <div><b>Mobile &amp; desktop:</b> Android (Java, WebView), Swift / macOS, progressive web apps, browser extensions</div>
+  <div><b>Signal processing:</b> Web Audio API, DSP, acoustic modem design, sensor signal decoding</div>
+</div>
+
+<h2>Experience</h2>
+<div class="item">
+  <div class="head"><b>AI &amp; Systems Engineer — Lucentive</b></div><div class="sub">Remote · Apr 2026 – Sep 2026</div>
+  <ul>
+    <li>Built Aura's agent-to-agent client: signed service discovery, fail-closed JWS/JWKS verification, JSON-RPC over bounded SSE, covered by 33 adversarial tests.</li>
+    <li>Built the core of Icarus, an AI application-generation platform with provider-agnostic multi-model orchestration and build and verification gates.</li>
+    <li>Designed Lucentive One identity infrastructure: OIDC single sign-on and passkeys; extended merge-safety CI checks and adversarial test coverage.</li>
+    <li>Ran the company's game-development unit (Lucentive Games) as its sole developer.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="head"><b>Independent Software Engineer — Kölja</b></div><div class="sub">São Paulo · 2010 – present</div>
+  <ul>
+    <li>Self-employed developer of games, applications and AI tools for 15+ years, including Nightmare Engine, a released horror game on my own retro-graphics engine. Founded the Kölja games and music studio in 2026.</li>
+  </ul>
+</div>
+
+<h2>Selected projects</h2>
+<div class="item">
+  <div class="head"><b>Salt Meridian — multiplayer pirate trading game</b></div><div class="sub">Godot 4.7 · creator &amp; technical director · in development</div>
+  <ul>
+    <li>Real sailing physics: buoyancy from the hull's own volumes, sail lift and drag from the apparent wind, a rudder that stalls.</li>
+    <li>Server-authoritative multiplayer with every connection encrypted (DTLS); accounts with challenge-response sign-in, staff roles and an audit log; Linux dedicated server with deploy, rollback and backup scripts.</li>
+    <li>AI bot captains that sail, trade and fight under the same physics as players. About 68,000 lines of GDScript and 208 test suites, built with AI coding agents under my direction.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="head"><b>Lume — offline, end-to-end encrypted messenger</b></div><div class="sub">Android + macOS · creator · private</div>
+  <ul>
+    <li>Devices pair and chat with no network at all: QR codes, screen and flashlight blinks, near-ultrasonic sound, and a magnetic-field channel read by the phone's magnetometer.</li>
+    <li>Per-chat X25519 handshake, AES-GCM messages and re-keying; custom text compression (~3 bits per character) and an 18-tone acoustic modem; unit and two-device end-to-end tests.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="head"><b>Project Artemis — local AI agent for security and computer automation</b></div><div class="sub">creator · ongoing</div>
+  <ul>
+    <li>Runs entirely on the owner's hardware, with no cloud inference: persistent SQLite memory, filesystem-native skills, dual-model dispatch, shell and file operations.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="head"><b>Pocket VR — Android VR desktop for phone headsets</b></div><div class="sub">Android · v1.4 · tested on device</div>
+  <ul>
+    <li>Six 3D environments, side-by-side browsing, local files, controller keyboard and voice typing, plus a sandboxed package format for third-party apps and games.</li>
+  </ul>
+</div>
+
+<h2>Education &amp; languages</h2>
+<div class="edu">
+  <div><b>Artificial Intelligence &amp; Advanced Data-Science Tools</b> — Universidade Presbiteriana Mackenzie · 2020</div>
+  <div><b>Postgraduate specialization in Law</b> — IFRS · 2025</div>
+  <div><b>Languages:</b> Portuguese (native) · English (fluent) · Spanish (professional working)</div>
+</div>
+
+</body>
+</html>
